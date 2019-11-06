@@ -1,0 +1,6 @@
+.DS_Store
+*.mp3
+node_modules
+package.json
+talkingSpeaker-8b78555798f5.json
+readme.txt
