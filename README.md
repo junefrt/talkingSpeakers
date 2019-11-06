@@ -25,14 +25,14 @@ npm install —save @google-could/speech grpc yargs > node-record-lpcm16
 
 ## Arborescence du programme
 
-talkingspeakers/<br>
-├── data/<br>
-│   ├── firstPhrase.txt --- phrase de démarrage.<br>
-│   └── saves.txt --- catalogues des phrases préférées de Google.<br>
-├── speech2text/<br>
-│   └── recognize.js --- script pour transcrire la parole en texte.<br>
-├── tts/<br>
-│   └── tts.js --- script pour utiliser la voix de Google Traduction.<br>
-├── talkingSpeaker-*.json --- clé .json. <br>
-├── talkingspeaker.sh --- script du processus global de l'œuvre. <br>
-└── tts.mp3 --- fichier audio de la dernière phrase analysée et diffusée. 
+talkingspeakers/ <br>
++-- data/ <br>
+|   +-- firstPhrase.txt — *phrase de démarrage*. <br>
+|   +-- saves.txt — *catalogues des phrases préférées de Google.* <br>
++-- speech2text/ <br>
+|   +-- recognize.js — *script pour transcrire la parole en texte.* <br>
++-- tts/ <br>
+|   +-- tts.js — *script pour utiliser la voix de Google Traduction.* <br>
++-- talkingSpeaker-*.json — *clé .json.* <br>
++-- talkingspeaker.sh — *script du processus global de l'œuvre.* <br>
++-- tts.mp3 — *fichier audio de la dernière phrase analysée et diffusée.* 
